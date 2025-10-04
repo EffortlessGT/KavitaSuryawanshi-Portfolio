@@ -1,25 +1,26 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
 import FadeUpAnim from './FadeUpAnim';
+import conference from '../assets/img/conference.jpg';
 
 //imports
-import img_0001 from "../assets/certificates/img_0001.pdf";
-import img_0002 from "../assets/certificates/img_0002.pdf";
-import img_0003 from "../assets/certificates/img_0003.pdf";
-import img_0004 from "../assets/certificates/img_0004.pdf";
-import img_0005 from "../assets/certificates/img_0005.pdf";
-import img_0006 from "../assets/certificates/img_0006.pdf";
-import img_0007 from "../assets/certificates/img_0007.pdf";
-import img_0008 from "../assets/certificates/img_0008.pdf";
-import img_0009 from "../assets/certificates/img_0009.pdf";
-import img_0010 from "../assets/certificates/img_0010.pdf";
-import img_0011 from "../assets/certificates/img_0011.pdf";
-import img_0012 from "../assets/certificates/img_0012.pdf";
-import img_0013 from "../assets/certificates/img_0013.pdf";
-import img_0014 from "../assets/certificates/img_0014.pdf";
-import img_0015 from "../assets/certificates/img_0015.pdf";
-import img_0016 from "../assets/certificates/img_0016.pdf";
-import img_0017 from "../assets/certificates/img_0017.pdf";
+import img_0001 from "../assets/certificates/img_0001.jpg";
+import img_0002 from "../assets/certificates/img_0002.jpg";
+import img_0003 from "../assets/certificates/img_0003.jpg";
+import img_0004 from "../assets/certificates/img_0004.jpg";
+import img_0005 from "../assets/certificates/img_0005.jpg";
+import img_0006 from "../assets/certificates/img_0006.jpg";
+import img_0007 from "../assets/certificates/img_0007.jpg";
+import img_0008 from "../assets/certificates/img_0008.jpg";
+import img_0009 from "../assets/certificates/img_0009.jpg";
+import img_0010 from "../assets/certificates/img_0010.jpg";
+import img_0011 from "../assets/certificates/img_0011.jpg";
+import img_0012 from "../assets/certificates/img_0012.jpg";
+import img_0013 from "../assets/certificates/img_0013.jpg";
+import img_0014 from "../assets/certificates/img_0014.jpg";
+import img_0015 from "../assets/certificates/img_0015.jpg";
+import img_0016 from "../assets/certificates/img_0016.jpg";
+import img_0017 from "../assets/certificates/img_0017.jpg";
 
 
 const tabs = [
@@ -251,87 +252,87 @@ const content = {
         {
             "title": "8th Asia-Africa Development International Conference, Summit and Awards 2025",
             "info": ["Organized by: Dr. D. Y. Patil Institute of Management Studies", "Date: 28th February - 1st March 2025"],
-            "link": img_0017
+            "path": img_0017
         },
         {
             "title": "National Conference on Sustainable Development Goals (SDGs): Technology & Management",
             "info": ["Paper: Innovation in Healthcare by Implementing TOT Application", "Date: 15-16 February 2024"],
-            "link": img_0016
+            "path": img_0016
         },
         {
             "title": "International Conference on Sustainable Entrepreneurship and Startup Ecosystem",
             "info": ["Paper: Innovation and Sustainable Growth - The role of Cloud Computing", "Date: 7-8 March 2025"],
-            "link": img_0015
+            "path": img_0015
         },
         {
             "title": "International Conference on Sustainable Entrepreneurship and Startup Ecosystem",
             "info": ["Paper: A Hybrid Deep Learning Framework for Early Detection of Eye Diseases", "Date: 7-8 March 2025"],
-            "link": img_0014
+            "path": img_0014
         },
         {
             "title": "International Conference on Sustainable Entrepreneurship and Startup Ecosystem",
             "info": ["Paper: Urban Flow - Revolutionizing Traffic Flow with Sustainable Tech", "Date: 7-8 March 2025"],
-            "link": img_0013
+            "path": img_0013
         },
         {
             "title": "National Seminar on Innovation and Intellectual Property Rights",
             "info": ["Paper: A Review of Innovation and Sustainability in computing", "Date: 9-10 February 2024"],
-            "link": img_0012
+            "path": img_0012
         },
         {
             "title": "Faculty Development Program on Empowering Education through AI",
             "info": ["Organized with NIPM Pune Chapter", "Date: 17-18 January 2024"],
-            "link": img_0011
+            "path": img_0011
         },
         {
             "title": "Best Paper Award - National Conference on Sustainable Development Goals",
             "info": ["Paper: Advancing Maize Crop Sustainability: AI-Enhanced Detection", "Date: 15-16 February 2024"],
-            "link": img_0010
+            "path": img_0010
         },
         {
             "title": "National Conference on Sustainable Development Goals (SDGs): Technology & Management",
             "info": ["Paper: Advancing Maize Crop Sustainability", "Date: 15-16 February 2024"],
-            "link": img_0009
+            "path": img_0009
         },
         {
             "title": "7th Asia-Africa Development Conference, Summit & Awards 2024",
             "info": ["Paper: Harnessing Digital Technologies to Combat Fall Armyworm Infestation", "Date: 1-2 March 2024"],
-            "link": img_0006
+            "path": img_0006
         },
         {
             "title": "Session Chair - 8th IEEE International Conference ICCUBEA-2024",
             "info": ["Pimpri Chinchwad College of Engineering", "Date: 23-24 August 2024"],
-            "link": img_0007
+            "path": img_0007
         },
         {
             "title": "Session Chair Certificate - 8th IEEE ICCUBEA-2024",
             "info": ["IEEE Conference Record Number 61740", "Date: 23-24 August 2024"],
-            "link": img_0008
+            "path": img_0008
         },
         {
             "title": "Reviewer Certificate - International Conference NTAI 2025",
             "info": ["Nextgen Technology and AI for Sustainable Future", "Date: 12-13 April 2025"],
-            "link": img_0004
+            "path": img_0004
         },
         {
             "title": "SPPU Project Viva-voce Examiner 2024",
             "info": ["Suryadatta Institute of Management & Mass Communication", "Date: 24 May 2024"],
-            "link": img_0002
+            "path": img_0002
         },
         {
             "title": "Session Chair Person - 7th Asia-Africa Development Conference 2024",
             "info": ["Jointly organized by DYPIMS and IICMR", "Date: 1-2 March 2024"],
-            "link": img_0001
+            "path": img_0001
         },
         {
             "title": "International Conference on Nextgen Technology and AI for Sustainable Future",
             "info": ["Paper: Early detection of FAW in maize using CNN & MobileNetV2", "Date: 12-13 April 2025"],
-            "link": img_0005
+            "path": img_0005
         },
         {
             "title": "External Examiner - MCA University Project Viva April/May 2024",
             "info": ["Institute of Industrial & Computer Management & Research", "Date: 30 May 2024"],
-            "link": img_0003
+            "path": img_0003
         }
     ],
 };
@@ -376,16 +377,20 @@ function Contributions() {
                         <div className="tabContent">
                             {content[activeTab].map((item, index) => (
                                 <div className="itemBox" key={index}>
+                                    {activeTab === "certifications" && (
+                                        <img src={item.path} alt={item.title} className="certificatePreview" />
+                                    )}
+
                                     <div className="itemTitle">{item.title}</div>
                                     <div className="itemInfo">
                                         {item.info.map((line, i) => (
                                             <span key={i}>{line}</span>
                                         ))}
-                                        {item.link && item.title !== "" && !["research", "publications"].includes(activeTab) && (
+                                        {/*{item.link && item.title !== "" && !["research", "publications"].includes(activeTab) && (
                                             <span>
                                                 <a href={item.link} target="_blank" rel="noopener noreferrer">View</a>
                                             </span>
-                                        )}
+                                        )}*/}
                                     </div>
                                 </div>
                             ))}
@@ -393,7 +398,7 @@ function Contributions() {
                     </div>
                 </FadeUpAnim>
 
-            </div>
+            </div >
             <Footer />
         </main >
     );
