@@ -33,20 +33,28 @@ function HeaderInfo() {
                     <h1 id="career-heading">Career Highlights</h1>
                     <div className="recordsContainer">
                         <div className="record">
-                            <h2>6</h2>
+                            <h2>27</h2>
                             <span>Publications</span>
                         </div>
                         <div className="record">
-                            <h2>5</h2>
+                            <h2>14</h2>
                             <span>Awards</span>
                         </div>
                         <div className="record">
-                            <h2>15</h2>
+                            <h2>20+</h2>
                             <span>Years of Experience</span>
                         </div>
                         <div className="record">
                             <h2>11</h2>
                             <span>Research Projects</span>
+                        </div>
+                        <div className="record">
+                            <h2>7</h2>
+                            <span>Recognized Patents</span>
+                        </div>
+                        <div className="record">
+                            <h2>7</h2>
+                            <span>Books & Chapters Published</span>
                         </div>
                     </div>
                 </FadeUpAnim>

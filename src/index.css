@@ -268,7 +268,7 @@ section .header-info {
 
 .aboutme-container {
   width: 60%;
-  margin: 5px 20%;
+  margin: 5% 20%;
   padding-bottom: 20px;
   display: flex;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
