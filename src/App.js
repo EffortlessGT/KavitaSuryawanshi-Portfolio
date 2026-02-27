@@ -8,7 +8,7 @@ import ContactMe from './components/ContactMe';
 import AboutMe from './components/AboutMe';
 import Qualification from './components/Qualification';
 import Gallery from './components/Gallery';
-import Footer from './components/Footer';
+#import Footer from './components/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Contributions from './components/Contributions';
